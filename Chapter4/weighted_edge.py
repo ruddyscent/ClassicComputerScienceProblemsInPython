@@ -30,4 +30,4 @@ class WeightedEdge(Edge):
         return self.weight < other.weight
 
     def __str__(self) -> str:
-        return f"{self.u} {self.weight}> {self.v}"
+        return f"{self.u} {self.weight} -> {self.v}"
